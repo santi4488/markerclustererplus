@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git@github.com:santi4488/markerclustererplus.git"
   },
-  "main": "dist/markerclusterer.min.js",
-  "types": "dist/markerclusterer.min.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "uglifyjs src/markerclusterer.js --compress --output dist/markerclusterer.min.js",
     "build:legacy_packaged": "uglifyjs src/markerclusterer.js --compress --output src/markerclusterer_packaged.js --preamble \"console.warn('This file has been deprecated and will be removed in the next release.');\"",
