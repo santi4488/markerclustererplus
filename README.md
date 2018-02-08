@@ -25,9 +25,10 @@ $ npm install markerclustererplus-node --save
 ```
 
 ### Usage
+
 If using Angular 2+
 ```typescript
-import 'markerwithlabel-node';
+import MarkerClusterer = require('markerwithlabel-node');
 
 let clusterer = new MarkerClusterer(map, [], options);
 ```
