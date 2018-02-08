@@ -21,6 +21,7 @@
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {
+    "@types/google-maps": "^3.2.0",
     "uglify-js": "^2.4.17"
   }
 }
