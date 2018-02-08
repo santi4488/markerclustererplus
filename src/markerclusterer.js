@@ -1672,3 +1672,6 @@ if (typeof String.prototype.trim !== 'function') {
   };
 }
 
+if (typeof exports === 'object') {
+  module.exports = MarkerClusterer;
+}
