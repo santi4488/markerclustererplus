@@ -14,7 +14,7 @@ This is an enhanced version of the MarkerClusterer library for managing large am
 
 This is git version of the [google svn repo](http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/).
 
-**This version allows import or require('') notation to be used.  As well as added compatibility with typescript.**
+**This version allows es5 and es6 imports.**
 
 ### Installation
 
@@ -22,6 +22,14 @@ Install with [npm](https://www.npmjs.com/).
 
 ```bash
 $ npm install markerclustererplus-node --save
+```
+
+### Usage
+If using Angular 2+
+```typescript
+import 'markerwithlabel-node';
+
+let clusterer = new MarkerClusterer(map, [], options);
 ```
 
 ### Additional Features
