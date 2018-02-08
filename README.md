@@ -14,6 +14,8 @@ This is an enhanced version of the MarkerClusterer library for managing large am
 
 This is git version of the [google svn repo](http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/).
 
+This version allows import or require('') notation to be used.  As well as added compatibility with typescript.
+
 ### Installation
 
 Install with [npm](https://www.npmjs.com/).
@@ -24,7 +26,7 @@ $ npm install markerclustererplus --save
 
 Install with [bower](http://bower.io).
 
-```bash 
+```bash
 bower install markerclustererplus --save
 ```
 
