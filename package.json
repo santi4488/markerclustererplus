@@ -1,6 +1,6 @@
 {
   "name": "markerclustererplus-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "markerclustererplus",
     "google",
@@ -20,7 +20,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@types/google-maps": "^3.2.0"    
+    "@types/google-maps": "^3.2.0"
   },
   "devDependencies": {
     "uglify-js": "^2.4.17"
