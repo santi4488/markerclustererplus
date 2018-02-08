@@ -28,9 +28,30 @@ $ npm install markerclustererplus-node --save
 
 If using Angular 2+
 ```typescript
-import MarkerClusterer = require('markerwithlabel-node');
+import MarkerClusterer = require('markerclustererplus-node');
+
+let markers = [
+  new google.maps.Marker()
+]
+// map = google map instance
 
 let clusterer = new MarkerClusterer(map, [], options);
+```
+
+You can also use type MarkerClustererOptions
+```typescript
+import MarkerClusterer = require('markerclustererplus-node');
+
+let clusterOptions: MarkerClustererOptions = {
+  gridSize: 20,
+  maxZoom: 10,
+  zoomOnClick: true
+}
+let markers = [
+  new google.maps.Marker()
+]
+// map = google map instance
+let clusterer = new MarkerClusterer(map, markers, clusterOptions);
 ```
 
 ### Additional Features
