@@ -21,13 +21,7 @@ This is git version of the [google svn repo](http://google-maps-utility-library-
 Install with [npm](https://www.npmjs.com/).
 
 ```bash
-$ npm install markerclustererplus --save
-```
-
-Install with [bower](http://bower.io).
-
-```bash
-bower install markerclustererplus --save
+$ npm install markerclustererplus-node --save
 ```
 
 ### Additional Features
