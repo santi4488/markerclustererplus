@@ -269,7 +269,7 @@ ClusterIcon.prototype.show = function () {
         "text-decoration: " + this.textDecoration_ + ";" +
         "text-align: center;" +
         "width: " + this.width_ + "px;" +
-        "line-height:" + this.height_ + "px;" +
+        // "line-height:" + this.height_ + "px;" +
         "'>" + (this.cluster_.hideLabel_ ? ' ' : this.sums_.text) + "</div>";
     if (typeof this.sums_.title === "undefined" || this.sums_.title === "") {
       this.div_.title = this.cluster_.getMarkerClusterer().getTitle();
